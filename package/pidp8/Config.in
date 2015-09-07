@@ -1,0 +1,7 @@
+config BR2_PACKAGE_PIDP8
+	bool "pidp8"
+	select BR2_PACKAGE_NCURSES
+	help
+		PIDP-8 is a fork of SIMH that drives Oscar's blinkenlights
+		see http://obsolescence.wix.com/obsolescence#!pidp-8/cbie
+
